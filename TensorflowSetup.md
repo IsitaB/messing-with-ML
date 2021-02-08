@@ -47,8 +47,6 @@ $ conda info --envs
 ```
 $ conda activate <venv_name>
 ```
-Ensure that your conda venv is activated whenever you're working with your ML packages
-
 While your conda venv is activated:
 * you will be able to use packages installed to your conda venv
 * all your `install` commands will install packages to the conda venv
@@ -65,6 +63,7 @@ conda env remove -n <venv_name>
 <hr/>
 
 Note: your conda venv should be activated for the following steps
+
 <hr/>
 
 ## Kernel Config
@@ -80,6 +79,8 @@ Install ipykernel and add your conda env to jupyter
 $ pip install ipykernel
 $ python -m ipykernel install --name <venv_name>
 ```
+
+You will now be able to run jupyter notebook cells with the packages installed to your conda venv\
 Read more about this here: https://janakiev.com/blog/jupyter-virtual-envs/ 
 ## Tensorflow Installation
 ```
@@ -101,6 +102,9 @@ This should launch jupyter notebook in your browser at `localhost:8888/tree`
 
 Navigate to the folder where you want to get create your notebook
 
-Click on `New`\
-Select `<venv_name>` option. This will link our kernel to the conda environment, so that when the kernel executes your notebook cells, it will be using the selected conda venv
+1. Click on `New`\
+2. Select `<venv_name>` option. This will link our kernel to the conda environment, so that when the kernel executes your notebook cells, it will be using the selected conda venv
+
+Start coding
+
 
