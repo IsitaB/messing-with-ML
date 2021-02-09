@@ -34,7 +34,7 @@ Setup
 1. Go to your terminal
 2. Create your conda venv
 ```
-$ conda create -name <venv_name> python=3
+$ conda create --name <venv_name> python=3
 ```
 Agree to the installation
 
