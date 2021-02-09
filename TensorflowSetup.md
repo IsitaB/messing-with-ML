@@ -66,6 +66,11 @@ Note: your conda venv should be activated for the following steps
 
 <hr/>
 
+## Jupyter Notebook ofc
+```
+$ pip install notebook
+```
+
 ## Kernel Config
 I have never heard of a kernel:
 * an ipython kernel executes python code in jupyter notebook cells (as if it were your terminal)
